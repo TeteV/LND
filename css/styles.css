@@ -115,3 +115,43 @@ canvas{
   text-align:center;
   width:480px;
 }
+
+.col-sm-3{
+  text-align: center;
+}
+
+#one{
+  text-align: center;
+  background-color: blue;
+}
+
+#two{
+  text-align: center;
+  background-color: red;
+}
+
+#three{
+  text-align: center;
+  background-color: green;
+}
+
+#res{
+  text-align: center;
+  /*border: solid;
+  border-color: black;*/
+  background-color: white;
+}
+
+#h31{
+  text-align: center;
+}
+
+#resulty1{
+  display: none;
+  color: red;
+}
+
+#resulty2{
+  display: none;
+  color: green;
+}
