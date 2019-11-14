@@ -101,15 +101,7 @@ body {
 #headh1{
   color: white;
 }
-#dead{
-    color: red;
-    display: none;
-}
 
-canvas{
-  align-items: center;
-  background-color: aliceblue;
-}
 
 #ildiv{
   text-align:center;
@@ -137,8 +129,6 @@ canvas{
 
 #res{
   text-align: center;
-  /*border: solid;
-  border-color: black;*/
   background-color: white;
 }
 
@@ -154,4 +144,85 @@ canvas{
 #resulty2{
   display: none;
   color: green;
+}
+
+/* Here the other equals*/
+#one1{
+  text-align: center;
+  background-color: blue;
+}
+
+#two1{
+  text-align: center;
+  background-color: red;
+}
+
+#three1{
+  text-align: center;
+  background-color: green;
+}
+
+#res1{
+  text-align: center;
+  border: solid;
+  border-color: black;
+  background-color: white;
+}
+
+#h311{
+  text-align: center;
+}
+
+#resulty11{
+  display: none;
+  color: red;
+}
+
+#resulty21{
+  display: none;
+  color: green;
+}
+/*Tohere*/
+#one2{
+  text-align: center;
+  background-color: blue;
+}
+
+#two2{
+  text-align: center;
+  background-color: red;
+}
+
+#three2{
+  text-align: center;
+  background-color: green;
+}
+
+#res2{
+  text-align: center;
+  border: solid;
+  border-color: black;
+  background-color: white;
+}
+
+#h312{
+  text-align: center;
+}
+
+#resulty12{
+  display: none;
+  color: red;
+}
+
+#resulty22{
+  display: none;
+  color: green;
+}
+
+#divcool{
+  display: none;
+}
+
+#divcool2{
+  display: none;
 }
