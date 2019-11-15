@@ -1,14 +1,25 @@
 window.onload = initialize;
+var NClicks = 0;
 
 function initialize(){
+    NClickss = document.getElementById("clickeos");
+
     butt = document.getElementById("buttonsin");
     butt.addEventListener("click", addNumbers);
+    butt.addEventListener("click", addClick);
 
     butt1 = document.getElementById("buttonsin1");
     butt1.addEventListener("click", addNumbers1);
+    butt1.addEventListener("click", addClick);
 
     butt2 = document.getElementById("buttonsin2");
     butt2.addEventListener("click", addNumbers2);
+    butt2.addEventListener("click", addClick);
+}
+
+function addClick(){
+  NClicks++;
+  NClickss.innerHTML = NClicks;
 }
 
 function addNumbers(){
@@ -105,8 +116,10 @@ function addNumbers2(){
   if (e == 5) {
       document.getElementById("resulty22").style.display = "unset";
       document.getElementById("resulty12").style.display = "none";
+      document.getElementById("hallof").style.display = "unset";
     } else {
       document.getElementById("resulty12").style.display = "unset";
       document.getElementById("resulty22").style.display = "none";
+      document.getElementById("hallof").style.display = "none";
     }
 }
