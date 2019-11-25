@@ -45,12 +45,6 @@
           <a class="nav-link btn btn-light text-body" href="list.html">List</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link btn btn-light text-body" href="contac.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link btn btn-light text-body" href="concurso.html">Lottery</a>
-        </li>
-        <li class="nav-item">
             <a class="nav-link btn btn-light text-body" href="signIn.html">Sign In</a>
           </li>
           <li class="nav-item">
@@ -67,7 +61,8 @@
     <div class="row">
       <div class="col-sm-4">
         <div class="card">
-          <img class="card-img-top rounded mt-3" src="img/noimage.png" alt="Card image">
+            <img class="card-img-top rounded mt-3" id="myImg" src="img/noimage.png" alt="Card image" style="width:100%;max-width:300px">
+          <!-- <img class="card-img-top rounded mt-3" src="img/noimage.png" alt="Card image"> -->
           <div class="card-body">
             <h4 class="card-title">X-Wing</h4>
             <p class="card-text">A lego star wars X-Wing</p>
@@ -79,7 +74,8 @@
 
       <div class="col-sm-4">
         <div class="card">
-          <img class="card-img-top rounded mt-3" src="img/Captura2.PNG" alt="Card image">
+          <img class="card-img-top rounded mt-3" id="myImg2" src="img/Captura2.PNG" alt="Card image" style="width:100%;max-width:300px">
+          <!-- <img class="card-img-top rounded mt-3" src="img/Captura2.PNG" alt="Card image"> -->
           <div class="card-body">
             <h4 class="card-title">Druid of Inciense</h4>
             <p class="card-text">Figure of a incense druid</p>
@@ -91,7 +87,7 @@
 
       <div class="col-sm-4">
         <div class="card">
-          <img class="card-img-top rounded mt-3" src="img/Captura1.PNG" alt="Card image">
+          <img class="card-img-top rounded mt-3" id="myImg3" src="img/Captura1.PNG" alt="Card image" style="width:100%;max-width:300px">
           <div class="card-body">
             <h4 class="card-title">Droid Spider</h4>
             <p class="card-text">A lego star wars of a droid spider</p>
@@ -102,8 +98,66 @@
       </div>
 
 
+      <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top rounded mt-3" id="myImgx" src="img/Captura1.PNG" alt="Card image" style="width:100%;max-width:300px">
+            <div class="card-body">
+              <h4 class="card-title">Droid Spider</h4>
+              <p class="card-text">A lego star wars of a droid spider</p>
+              <a href="#" class="btn btn-primary fas fa-thumbs-up" onclick="addLike3()"></a>
+              <span class="mt-1" id="motoxxx"></span>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-4">
+            <div class="card">
+              <img class="card-img-top rounded mt-3" id="myImgxx" src="img/Captura1.PNG" alt="Card image" style="width:100%;max-width:300px">
+              <div class="card-body">
+                <h4 class="card-title">Droid Spider</h4>
+                <p class="card-text">A lego star wars of a droid spider</p>
+                <a href="#" class="btn btn-primary fas fa-thumbs-up" onclick="addLike3()"></a>
+                <span class="mt-1" id="motoxxx"></span>
+              </div>
+            </div>
+          </div>
     </div>
   </div>
+
+
+  <div class="footer">
+      <div class="container">
+        <div class="row">
+            <h1> N's 3d!</h1>
+          <div class="col-sm-2"></div>
+          <div><a class="btn btn-link text-light mt-2" href="contac.html">Contact us!</a></div>
+          <div class="col-sm-2"></div>
+          <div><a class="btn btn-link text-light mt-2" href="#">Button</a></div>
+          <div class="col-sm-2"></div>
+          <div><a class="btn btn-link text-light mt-2" href="#">Button</a></div>
+        </div>
+      </div>
+    </div>
+
+
+      <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <div class="container">
+  <div class="row">
+  <span id="clus" class="close mt-5">&times;</span>
+  </div>
+  </div>
+
+  <!-- Modal Content (The Image) -->
+  <img src="#" alt="" class="modal-content" id="img01">
+  
+  <!-- Modal Caption (Image Text) -->
+  <!-- <div id="caption"></div> -->
+</div>
+
 </body>
 
 </html>

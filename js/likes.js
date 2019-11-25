@@ -1,31 +1,111 @@
 window.onload = inicializar;
 var refLikesLocos;
-var NLikes = 0;
-var NLikes2 = 0;
-var NLikes3 = 0;
+var nLikes = 0;
+var nLikes2 = 0;
+var nLikes3 = 0;
 
 function inicializar() {
-    NLikess = document.getElementById("moto1");
-    NLikess.innerHTML = NLikes;
+    nLikess = document.getElementById("moto1");
+    nLikess.innerHTML = nLikes;
 
-    NLikess2 = document.getElementById("moto2");
-    NLikess2.innerHTML = NLikes2;
+    nLikess2 = document.getElementById("moto2");
+    nLikess2.innerHTML = nLikes2;
 
-    NLikess3 = document.getElementById("moto3");
-    NLikess3.innerHTML = NLikes3;
+    nLikess3 = document.getElementById("moto3");
+    nLikess3.innerHTML = nLikes3;
+
+    verIm = document.getElementById("myImg");
+    verIm.addEventListener("click", verImagen);
+
+    verIm = document.getElementById("myImg2");
+    verIm.addEventListener("click", verImagen2);
+
+    verIm = document.getElementById("myImg3");
+    verIm.addEventListener("click", verImagen3);
 }
 
 function addLike(){
-    NLikes++;
-    NLikess.innerHTML = NLikes;
+    nLikes++;
+    nLikess.innerHTML = nLikes;
 }
 
 function addLike2(){
-    NLikes2++;
-    NLikess2.innerHTML = NLikes2;
+    nLikes2++;
+    nLikess2.innerHTML = nLikes2;
 }
 
 function addLike3(){
-    NLikes3++;
-    NLikess3.innerHTML = NLikes3;
+    nLikes3++;
+    nLikess3.innerHTML = nLikes3;
 }
+
+
+function verImagen(){
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  //captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+}
+
+
+function verImagen2(){
+  // Get the modal
+  var modal = document.getElementById("myModal");
+  
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById("myImg2");
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+  img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    //captionText.innerHTML = this.alt;
+  }
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  }
+
+  function verImagen3(){
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg3");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      //captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    }

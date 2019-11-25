@@ -1,8 +1,8 @@
 window.onload = initialize;
-var NClicks = 0;
+var nClicks = 0;
 
 function initialize(){
-    NClickss = document.getElementById("clickeos");
+    nClickss = document.getElementById("clickeos");
 
     butt = document.getElementById("buttonsin");
     butt.addEventListener("click", addNumbers);
@@ -18,8 +18,8 @@ function initialize(){
 }
 
 function addClick(){
-  NClicks++;
-  NClickss.innerHTML = NClicks;
+  nClicks++;
+  nClickss.innerHTML = nClicks;
 }
 
 function addNumbers(){
