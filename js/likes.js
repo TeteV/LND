@@ -24,6 +24,7 @@ function inicializar() {
     verIm.addEventListener("click", verImagen3);
 }
 
+
 function addLike(){
     nLikes++;
     nLikess.innerHTML = nLikes;
