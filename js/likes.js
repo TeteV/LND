@@ -5,6 +5,15 @@ var nLikes2 = 0;
 var nLikes3 = 0;
 
 function inicializar() {
+    buttnLike = document.getElementById("btn1");
+    buttnLike.addEventListener("click", addLike);
+
+    buttnLike2 = document.getElementById("btn2");
+    buttnLike2.addEventListener("click", addLike2);
+
+    buttnLike3 = document.getElementById("btn3");
+    buttnLike3.addEventListener("click", addLike3);
+
     nLikess = document.getElementById("moto1");
     nLikess.innerHTML = nLikes;
 
@@ -48,11 +57,9 @@ var modal = document.getElementById("myModal");
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById("myImg");
 var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
-  //captionText.innerHTML = this.alt;
 }
 
 // Get the <span> element that closes the modal
@@ -72,11 +79,9 @@ function verImagen2(){
   // Get the image and insert it inside the modal - use its "alt" text as a caption
   var img = document.getElementById("myImg2");
   var modalImg = document.getElementById("img01");
-  var captionText = document.getElementById("caption");
   img.onclick = function(){
     modal.style.display = "block";
     modalImg.src = this.src;
-    //captionText.innerHTML = this.alt;
   }
   
   // Get the <span> element that closes the modal
@@ -95,11 +100,10 @@ function verImagen2(){
     // Get the image and insert it inside the modal - use its "alt" text as a caption
     var img = document.getElementById("myImg3");
     var modalImg = document.getElementById("img01");
-    var captionText = document.getElementById("caption");
+
     img.onclick = function(){
       modal.style.display = "block";
       modalImg.src = this.src;
-      //captionText.innerHTML = this.alt;
     }
     
     // Get the <span> element that closes the modal
