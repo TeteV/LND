@@ -7,7 +7,11 @@ body {
   margin-top: 3px;
   margin-left: 2px;
   text-align: center;
+  opacity: 1;
+  transition: 0.3s;
 }
+
+.nav-link:hover {opacity: 0.7}
 
 #logo1 {
   width: 45px;
@@ -233,11 +237,40 @@ body {
 .footer {
   position: relative;
   width: 100%;
-  background-color: #339933;
+  background-color: #cccccc;
   color: white;
   text-align: center;
+  background-image: url("../img/footfond.png");
+}
+.btn-link:hover {
+  background: #e7e7e7;
 }
 
+.btn-link {
+  border-color: #e7e7e7;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
 
 .card-img-top {
   border-radius: 5px;
