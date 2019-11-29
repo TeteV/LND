@@ -234,7 +234,11 @@ body {
   display: none;
 }
 
+.footer .icon {
+  display: none;
+}
 .footer {
+  bottom: 0;
   position: relative;
   width: 100%;
   background-color: #cccccc;
