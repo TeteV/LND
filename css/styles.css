@@ -234,10 +234,17 @@ body {
   display: none;
 }
 
-.footer .icon {
-  display: none;
+.carousel-item{
+  width: 700px;
+  height: 450px;
 }
-.footer {
+
+#demo{
+  align-content: center;
+}
+
+
+#footr{
   bottom: 0;
   position: relative;
   width: 100%;
@@ -246,6 +253,7 @@ body {
   text-align: center;
   background-image: url("../img/footfond.png");
 }
+
 .btn-link:hover {
   background: #e7e7e7;
 }
@@ -255,11 +263,16 @@ body {
 }
 
 .fa {
-  padding: 10px;
-  font-size: 30px;
-  width: 50px;
+  padding: 12px;
+  width: 60px;
   text-align: center;
   text-decoration: none;
+}
+
+#logofoot{
+  margin-top: 13px;
+  width: 60px;
+  text-align: center;
 }
 
 .fa:hover {
